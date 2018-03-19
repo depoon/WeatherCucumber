@@ -13,7 +13,10 @@
 		1CB85BA3204C543800B641C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB85BA2204C543800B641C8 /* Assets.xcassets */; };
 		1CB85BA6204C543800B641C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB85BA4204C543800B641C8 /* LaunchScreen.storyboard */; };
 		1CB85BB1204C543800B641C8 /* WeatherCucumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85BB0204C543800B641C8 /* WeatherCucumberTests.swift */; };
-		1CB85BBC204C543800B641C8 /* WeatherCucumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85BBB204C543800B641C8 /* WeatherCucumberUITests.swift */; };
+		1CB85BCD204C583800B641C8 /* CucumberishSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85BCC204C583800B641C8 /* CucumberishSetup.swift */; };
+		1CB85BD0204C596B00B641C8 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85BCF204C596B00B641C8 /* CucumberishLoader.m */; };
+		1CB85BD3204C5C2800B641C8 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 1CB85BD2204C5B6B00B641C8 /* Features */; };
+		AF20B5B6898179436F7A9241 /* Pods_WeatherCucumberUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800FF1F38DB29A739C795558 /* Pods_WeatherCucumberUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,13 @@
 		1CB85BB7204C543800B641C8 /* WeatherCucumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherCucumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB85BBB204C543800B641C8 /* WeatherCucumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCucumberUITests.swift; sourceTree = "<group>"; };
 		1CB85BBD204C543800B641C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB85BCC204C583800B641C8 /* CucumberishSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishSetup.swift; sourceTree = "<group>"; };
+		1CB85BCE204C596A00B641C8 /* WeatherCucumberUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherCucumberUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		1CB85BCF204C596B00B641C8 /* CucumberishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishLoader.m; sourceTree = "<group>"; };
+		1CB85BD2204C5B6B00B641C8 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
+		3EEDB21197220DABE751B18A /* Pods-WeatherCucumberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherCucumberUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherCucumberUITests/Pods-WeatherCucumberUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7937B638F6F59DAC895A1626 /* Pods-WeatherCucumberUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherCucumberUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherCucumberUITests/Pods-WeatherCucumberUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		800FF1F38DB29A739C795558 /* Pods_WeatherCucumberUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherCucumberUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +78,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF20B5B6898179436F7A9241 /* Pods_WeatherCucumberUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16E9600210B3AC111120B0B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				800FF1F38DB29A739C795558 /* Pods_WeatherCucumberUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		177B58D557A74AC2B7132C29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7937B638F6F59DAC895A1626 /* Pods-WeatherCucumberUITests.debug.xcconfig */,
+				3EEDB21197220DABE751B18A /* Pods-WeatherCucumberUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1CB85B8F204C543800B641C8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				1CB85BAF204C543800B641C8 /* WeatherCucumberTests */,
 				1CB85BBA204C543800B641C8 /* WeatherCucumberUITests */,
 				1CB85B99204C543800B641C8 /* Products */,
+				177B58D557A74AC2B7132C29 /* Pods */,
+				16E9600210B3AC111120B0B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,8 +149,12 @@
 		1CB85BBA204C543800B641C8 /* WeatherCucumberUITests */ = {
 			isa = PBXGroup;
 			children = (
+				1CB85BD2204C5B6B00B641C8 /* Features */,
 				1CB85BBB204C543800B641C8 /* WeatherCucumberUITests.swift */,
+				1CB85BCC204C583800B641C8 /* CucumberishSetup.swift */,
+				1CB85BCF204C596B00B641C8 /* CucumberishLoader.m */,
 				1CB85BBD204C543800B641C8 /* Info.plist */,
+				1CB85BCE204C596A00B641C8 /* WeatherCucumberUITests-Bridging-Header.h */,
 			);
 			path = WeatherCucumberUITests;
 			sourceTree = "<group>";
@@ -167,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CB85BC6204C543900B641C8 /* Build configuration list for PBXNativeTarget "WeatherCucumberUITests" */;
 			buildPhases = (
+				07DC56497291775D1D1CDFD5 /* [CP] Check Pods Manifest.lock */,
 				1CB85BB3204C543800B641C8 /* Sources */,
 				1CB85BB4204C543800B641C8 /* Frameworks */,
 				1CB85BB5204C543800B641C8 /* Resources */,
+				B62DB51072AE30C403ECAEC4 /* [CP] Embed Pods Frameworks */,
+				BD61AFAD300CC2CF8D034263 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +239,7 @@
 					};
 					1CB85BB6204C543800B641C8 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1CB85B97204C543800B641C8;
 					};
@@ -249,10 +287,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB85BD3204C5C2800B641C8 /* Features in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07DC56497291775D1D1CDFD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherCucumberUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B62DB51072AE30C403ECAEC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeatherCucumberUITests/Pods-WeatherCucumberUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cucumberish/Cucumberish.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cucumberish.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherCucumberUITests/Pods-WeatherCucumberUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD61AFAD300CC2CF8D034263 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherCucumberUITests/Pods-WeatherCucumberUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1CB85B94204C543800B641C8 /* Sources */ = {
@@ -276,7 +369,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB85BBC204C543800B641C8 /* WeatherCucumberUITests.swift in Sources */,
+				1CB85BD0204C596B00B641C8 /* CucumberishLoader.m in Sources */,
+				1CB85BCD204C583800B641C8 /* CucumberishSetup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,14 +582,19 @@
 		};
 		1CB85BC7204C543900B641C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7937B638F6F59DAC895A1626 /* Pods-WeatherCucumberUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 63YV8ZAJ9F;
 				INFOPLIST_FILE = WeatherCucumberUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = propertyguru.WeatherCucumberUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WeatherCucumberUITests/WeatherCucumberUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WeatherCucumber;
@@ -504,14 +603,18 @@
 		};
 		1CB85BC8204C543900B641C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEDB21197220DABE751B18A /* Pods-WeatherCucumberUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 63YV8ZAJ9F;
 				INFOPLIST_FILE = WeatherCucumberUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = propertyguru.WeatherCucumberUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WeatherCucumberUITests/WeatherCucumberUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WeatherCucumber;

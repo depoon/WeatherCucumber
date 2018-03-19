@@ -1,0 +1,8 @@
+
+Pods/**
+
+Podfile.lock
+
+WeatherCucumber.xcworkspace/xcuserdata/**
+WeatherCucumber.xcodeproj/project.xcworkspace/xcuserdata/**
+WeatherCucumber.xcodeproj/xcuserdata/**
