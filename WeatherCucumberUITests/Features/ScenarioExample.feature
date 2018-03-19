@@ -1,4 +1,4 @@
-Feature: ExampleA
+Feature: ScenarioExample
 
 Scenario: First scenario
  
