@@ -11,7 +11,7 @@ Scenario: Able to search Weather
 
     Then I should see "Tokyo" in Detail Screen
     Then I should see "Japan" in Detail Screen
-    Then I should see "13C" in Detail Screen
+    Then I should see "9" in Detail Screen
     Then I should see "Cloudy" in Detail Screen
 
 

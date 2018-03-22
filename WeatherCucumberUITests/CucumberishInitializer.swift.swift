@@ -59,7 +59,7 @@ class CucumberishInitializer: NSObject {
         }       
         
         
-        let bundle = Bundle(for: CucumberishSetup.self)
+        let bundle = Bundle(for: CucumberishInitializer.self)
         Cucumberish.executeFeatures(inDirectory: "Features", from: bundle, includeTags: self.getTags(), excludeTags: nil)
 
     }
