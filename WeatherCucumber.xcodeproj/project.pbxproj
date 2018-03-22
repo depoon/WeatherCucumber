@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4F72D72062C34700A90E52 /* WeatherResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F72D62062C31A00A90E52 /* WeatherResultItem.swift */; };
+		1C4F72D82062C35A00A90E52 /* WeatherApiSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F72D42062C2FD00A90E52 /* WeatherApiSearchService.swift */; };
+		1C4F72DA2062C37E00A90E52 /* WeatherSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F72D92062C37E00A90E52 /* WeatherSearchViewController.swift */; };
+		1C4F72DD2062C3B700A90E52 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F72DC2062C3B700A90E52 /* WeatherDetailViewController.swift */; };
+		1C4F72E12062C44E00A90E52 /* WeatherDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C4F72E02062C44E00A90E52 /* WeatherDetailView.xib */; };
+		1C4F72E32062C45A00A90E52 /* WeatherDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F72E22062C45A00A90E52 /* WeatherDetailView.swift */; };
+		1C4F72E52062CCEA00A90E52 /* WeatherApiDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F72E42062CCEA00A90E52 /* WeatherApiDetailService.swift */; };
+		1C4F72E72062CD3700A90E52 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F72E62062CD3600A90E52 /* WeatherDetail.swift */; };
+		1C956340206170F700D3B23C /* WeatherSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95633F206170F700D3B23C /* WeatherSearch.swift */; };
+		1C9563422061711800D3B23C /* WeatherSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9563412061711800D3B23C /* WeatherSearch.xib */; };
 		1CB85B9C204C543800B641C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85B9B204C543800B641C8 /* AppDelegate.swift */; };
 		1CB85B9E204C543800B641C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85B9D204C543800B641C8 /* ViewController.swift */; };
-		1CB85BA1204C543800B641C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB85B9F204C543800B641C8 /* Main.storyboard */; };
 		1CB85BA3204C543800B641C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB85BA2204C543800B641C8 /* Assets.xcassets */; };
 		1CB85BA6204C543800B641C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB85BA4204C543800B641C8 /* LaunchScreen.storyboard */; };
 		1CB85BB1204C543800B641C8 /* WeatherCucumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85BB0204C543800B641C8 /* WeatherCucumberTests.swift */; };
-		1CB85BCD204C583800B641C8 /* CucumberishSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85BCC204C583800B641C8 /* CucumberishSetup.swift */; };
+		1CB85BCD204C583800B641C8 /* CucumberishInitializer.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85BCC204C583800B641C8 /* CucumberishInitializer.swift.swift */; };
 		1CB85BD0204C596B00B641C8 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB85BCF204C596B00B641C8 /* CucumberishLoader.m */; };
 		1CB85BD3204C5C2800B641C8 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 1CB85BD2204C5B6B00B641C8 /* Features */; };
 		AF20B5B6898179436F7A9241 /* Pods_WeatherCucumberUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800FF1F38DB29A739C795558 /* Pods_WeatherCucumberUITests.framework */; };
@@ -37,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C4F72D42062C2FD00A90E52 /* WeatherApiSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApiSearchService.swift; sourceTree = "<group>"; };
+		1C4F72D62062C31A00A90E52 /* WeatherResultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResultItem.swift; sourceTree = "<group>"; };
+		1C4F72D92062C37E00A90E52 /* WeatherSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSearchViewController.swift; sourceTree = "<group>"; };
+		1C4F72DC2062C3B700A90E52 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+		1C4F72E02062C44E00A90E52 /* WeatherDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDetailView.xib; sourceTree = "<group>"; };
+		1C4F72E22062C45A00A90E52 /* WeatherDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailView.swift; sourceTree = "<group>"; };
+		1C4F72E42062CCEA00A90E52 /* WeatherApiDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApiDetailService.swift; sourceTree = "<group>"; };
+		1C4F72E62062CD3600A90E52 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
+		1C95633F206170F700D3B23C /* WeatherSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSearch.swift; sourceTree = "<group>"; };
+		1C9563412061711800D3B23C /* WeatherSearch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherSearch.xib; sourceTree = "<group>"; };
 		1CB85B98204C543800B641C8 /* WeatherCucumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherCucumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB85B9B204C543800B641C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB85B9D204C543800B641C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +69,7 @@
 		1CB85BB7204C543800B641C8 /* WeatherCucumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherCucumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB85BBB204C543800B641C8 /* WeatherCucumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCucumberUITests.swift; sourceTree = "<group>"; };
 		1CB85BBD204C543800B641C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CB85BCC204C583800B641C8 /* CucumberishSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishSetup.swift; sourceTree = "<group>"; };
+		1CB85BCC204C583800B641C8 /* CucumberishInitializer.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishInitializer.swift.swift; sourceTree = "<group>"; };
 		1CB85BCE204C596A00B641C8 /* WeatherCucumberUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherCucumberUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		1CB85BCF204C596B00B641C8 /* CucumberishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishLoader.m; sourceTree = "<group>"; };
 		1CB85BD2204C5B6B00B641C8 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
@@ -102,6 +121,44 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1C4F72D32062C2DE00A90E52 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F72D42062C2FD00A90E52 /* WeatherApiSearchService.swift */,
+				1C4F72E42062CCEA00A90E52 /* WeatherApiDetailService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		1C4F72D52062C30300A90E52 /* DomainObject */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F72D62062C31A00A90E52 /* WeatherResultItem.swift */,
+				1C4F72E62062CD3600A90E52 /* WeatherDetail.swift */,
+			);
+			path = DomainObject;
+			sourceTree = "<group>";
+		};
+		1C4F72DB2062C39C00A90E52 /* WeatherDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F72DC2062C3B700A90E52 /* WeatherDetailViewController.swift */,
+				1C4F72E02062C44E00A90E52 /* WeatherDetailView.xib */,
+				1C4F72E22062C45A00A90E52 /* WeatherDetailView.swift */,
+			);
+			path = WeatherDetail;
+			sourceTree = "<group>";
+		};
+		1C95633E206170E500D3B23C /* WeatherSearch */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F72D92062C37E00A90E52 /* WeatherSearchViewController.swift */,
+				1C95633F206170F700D3B23C /* WeatherSearch.swift */,
+				1C9563412061711800D3B23C /* WeatherSearch.xib */,
+			);
+			path = WeatherSearch;
+			sourceTree = "<group>";
+		};
 		1CB85B8F204C543800B641C8 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +184,10 @@
 		1CB85B9A204C543800B641C8 /* WeatherCucumber */ = {
 			isa = PBXGroup;
 			children = (
+				1C4F72D52062C30300A90E52 /* DomainObject */,
+				1C4F72D32062C2DE00A90E52 /* ApiService */,
+				1C95633E206170E500D3B23C /* WeatherSearch */,
+				1C4F72DB2062C39C00A90E52 /* WeatherDetail */,
 				1CB85B9B204C543800B641C8 /* AppDelegate.swift */,
 				1CB85B9D204C543800B641C8 /* ViewController.swift */,
 				1CB85B9F204C543800B641C8 /* Main.storyboard */,
@@ -151,7 +212,7 @@
 			children = (
 				1CB85BD2204C5B6B00B641C8 /* Features */,
 				1CB85BBB204C543800B641C8 /* WeatherCucumberUITests.swift */,
-				1CB85BCC204C583800B641C8 /* CucumberishSetup.swift */,
+				1CB85BCC204C583800B641C8 /* CucumberishInitializer.swift.swift */,
 				1CB85BCF204C596B00B641C8 /* CucumberishLoader.m */,
 				1CB85BBD204C543800B641C8 /* Info.plist */,
 				1CB85BCE204C596A00B641C8 /* WeatherCucumberUITests-Bridging-Header.h */,
@@ -270,9 +331,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4F72E12062C44E00A90E52 /* WeatherDetailView.xib in Resources */,
+				1C9563422061711800D3B23C /* WeatherSearch.xib in Resources */,
 				1CB85BA6204C543800B641C8 /* LaunchScreen.storyboard in Resources */,
 				1CB85BA3204C543800B641C8 /* Assets.xcassets in Resources */,
-				1CB85BA1204C543800B641C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +414,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4F72E32062C45A00A90E52 /* WeatherDetailView.swift in Sources */,
+				1C4F72E72062CD3700A90E52 /* WeatherDetail.swift in Sources */,
+				1C956340206170F700D3B23C /* WeatherSearch.swift in Sources */,
+				1C4F72D82062C35A00A90E52 /* WeatherApiSearchService.swift in Sources */,
 				1CB85B9E204C543800B641C8 /* ViewController.swift in Sources */,
+				1C4F72DD2062C3B700A90E52 /* WeatherDetailViewController.swift in Sources */,
+				1C4F72DA2062C37E00A90E52 /* WeatherSearchViewController.swift in Sources */,
 				1CB85B9C204C543800B641C8 /* AppDelegate.swift in Sources */,
+				1C4F72E52062CCEA00A90E52 /* WeatherApiDetailService.swift in Sources */,
+				1C4F72D72062C34700A90E52 /* WeatherResultItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CB85BD0204C596B00B641C8 /* CucumberishLoader.m in Sources */,
-				1CB85BCD204C583800B641C8 /* CucumberishSetup.swift in Sources */,
+				1CB85BCD204C583800B641C8 /* CucumberishInitializer.swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

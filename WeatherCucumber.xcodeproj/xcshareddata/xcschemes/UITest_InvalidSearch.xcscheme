@@ -75,7 +75,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-Tags:NoResults"
+            argument = "-Tags:NoResult"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

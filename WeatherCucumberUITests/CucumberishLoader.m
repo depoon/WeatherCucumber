@@ -11,6 +11,6 @@
 
 __attribute__((constructor))
 void CucumberishInit(){
-    [CucumberishSetup setupCucumberish];
+    [CucumberishInitializer setupCucumberish];
 }
 
