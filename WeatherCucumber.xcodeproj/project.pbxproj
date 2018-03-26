@@ -67,7 +67,6 @@
 		1CB85BB0204C543800B641C8 /* WeatherCucumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCucumberTests.swift; sourceTree = "<group>"; };
 		1CB85BB2204C543800B641C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CB85BB7204C543800B641C8 /* WeatherCucumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherCucumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CB85BBB204C543800B641C8 /* WeatherCucumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCucumberUITests.swift; sourceTree = "<group>"; };
 		1CB85BBD204C543800B641C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CB85BCC204C583800B641C8 /* CucumberishInitializer.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishInitializer.swift.swift; sourceTree = "<group>"; };
 		1CB85BCE204C596A00B641C8 /* WeatherCucumberUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherCucumberUITests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -211,7 +210,6 @@
 			isa = PBXGroup;
 			children = (
 				1CB85BD2204C5B6B00B641C8 /* Features */,
-				1CB85BBB204C543800B641C8 /* WeatherCucumberUITests.swift */,
 				1CB85BCC204C583800B641C8 /* CucumberishInitializer.swift.swift */,
 				1CB85BCF204C596B00B641C8 /* CucumberishLoader.m */,
 				1CB85BBD204C543800B641C8 /* Info.plist */,
