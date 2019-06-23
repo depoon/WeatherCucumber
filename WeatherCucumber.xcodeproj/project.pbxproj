@@ -265,7 +265,6 @@
 				1CB85BB4204C543800B641C8 /* Frameworks */,
 				1CB85BB5204C543800B641C8 /* Resources */,
 				B62DB51072AE30C403ECAEC4 /* [CP] Embed Pods Frameworks */,
-				BD61AFAD300CC2CF8D034263 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -388,21 +387,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherCucumberUITests/Pods-WeatherCucumberUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BD61AFAD300CC2CF8D034263 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherCucumberUITests/Pods-WeatherCucumberUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

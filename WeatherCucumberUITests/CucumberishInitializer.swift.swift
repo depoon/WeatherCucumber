@@ -65,13 +65,9 @@ class CucumberishInitializer: NSObject {
     }
     
     class func waitForElementToAppear(_ element: XCUIElement){
-        let predicate = NSPredicate(format: "exists == true")
-        let expectation = XCTestCase().expectation(for: predicate, evaluatedWith: element, 
-                                      handler: nil)
-        
-        let result = XCTWaiter().wait(for: [expectation], timeout: 5)
-        guard result == .completed else {
-            XCTFail()
+        let result = element.waitForExistence(timeout: 5)
+        guard result else {
+            XCTFail("Element does not appear")
             return
         }
     }
